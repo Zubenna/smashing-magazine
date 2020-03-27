@@ -3,19 +3,19 @@
   margin: 0;
 }
 body{
-   background-color:  #e0ebeb;
+   background-color:  #85adad;
+   color: #ffffff;
 }
 
 .nav-bar {
   height: 9rem;
   display: flex;
-  background-color: #85adad;
   justify-content: space-evenly;
-  color: #ffffff;
   padding-top: 5rem;
 }
 .item{
   text-align: center;
+  background-color:#1f2d2d;
 }
 
 .item h1{
@@ -24,30 +24,38 @@ body{
 .search-button{
   width: 7rem;
   height: 3rem;
-  background-color: inherit;
   border: 2px solid #fff;
   border-radius: 5px; 
-  color: #fff;
   font-size: medium;
+  color: inherit;
+  background-color: #496969;;
 }
+.site-logo {
+  background-color: #496969;
+}
+
 .fa-search {
 position: relative;
 right: 6.8rem;
 }
+
 .call-to-action {
   position: absolute;
-  left: 35rem;
+  left: 35%;
+  margin-top: 1.8rem;
+  font-family: 'Baloo Thambi 2', cursive;
 } 
 .action-title1,
 .action-title2 {
   margin: auto auto;
-  width: 10rem;
-  height: 2rem;
+  width: 25rem;  
+  height: 3rem;
   text-align: center;
-  background-color: aqua;
+  background-color:#1f2d2d;
+  font-size: 1.6rem;
 }
 .action-title2 {
-  width: 5rem;
+  width: 12.5rem;
 }
 .article-one {
   background-color: #c2d6d6;
@@ -63,9 +71,10 @@ right: 6.8rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 40rem 40rem;
+  text-align: center;
 }
 .div-border {
-  border: 5px solid rgb(164, 7, 226);
+  border: 5px solid #fff;
 }
 
 .authour-container{
@@ -75,6 +84,7 @@ right: 6.8rem;
 .image-container {
   width: 8rem;
   height: 4rem;
+  transform: rotateY(75);
 }
 .authour-div{
   width: 12rem;
@@ -83,11 +93,15 @@ right: 6.8rem;
 .content-box {
   margin-top: 2rem;
   height: 10rem;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 1.6rem;
+  background-color: #2a3c3c;
 }
 .comment-box {
   width: 10rem;
   height: 1.3rem;
   margin-top: 1.2rem;
+
 }
 .hashTag-container{
   margin-top: 3rem;
@@ -248,7 +262,8 @@ right: 6.8rem;
 }
 
 .latest-article,
-.twitter-link {
+.twitter-link,
+.special-article{
   width: 16rem;
   height: 2rem;
   margin: 5rem auto;
@@ -444,3 +459,52 @@ right: 6.8rem;
   height: 3rem;
   border-radius: 1rem;
 }
+footer {
+  height: 40rem;
+  background-color: #a3c2c2;
+  text-align: center;
+}
+
+.footer-heading {
+  width: 20rem;
+  height: 3rem;
+  margin: 0 auto;
+  position: relative;
+  top: 3rem;
+}
+
+.footer-items {
+  margin: 5rem auto 0 auto; 
+  width: 70rem;
+  height: 10rem;
+} 
+.footer-items ul li {
+  display: inline-block;
+  padding: 2px;
+}
+.fa-circle {
+  font-size: 7px;
+  padding-right: 5px;
+}
+.footer-box {
+  display: flex;
+  padding: 0 3rem;
+  justify-content: center;
+}
+.left-image {
+  width: 13rem;
+  height: 10rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+.footer-topics {
+  width: 25rem;
+  height: 15rem;
+  margin-right: 3rem;
+}
+.right-image {
+  width: 13rem;
+  height: 10rem;
+  margin-top: 3rem;
+}
+
