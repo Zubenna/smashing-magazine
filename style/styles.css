@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+body{
+   background-color:  #e0ebeb;
+}
 
 .nav-bar {
   height: 9rem;
@@ -62,8 +65,9 @@ right: 6.8rem;
   grid-template-rows: 40rem 40rem;
 }
 .div-border {
-  border: 5px solid #fff;
+  border: 5px solid rgb(164, 7, 226);
 }
+
 .authour-container{
   display: flex;
   margin-top: 8rem;
@@ -122,6 +126,258 @@ right: 6.8rem;
 .article-four {
   background-color: #c2d6d6;
 }
+.article-group-two {
+  display: flex;
+  min-height: 37rem;
+  padding: 4rem 3rem 0 3rem;
+}
+.days-counter {
+  width: 6rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+.article-topic {
+  width: 23rem;
+  height: 3rem;
+}
+.article-authour {
+  width: 18rem;
+  height: 4rem;
+}
+.article-content {
+  width: 23rem;
+  height: 22rem;
+}
+.article-b1,
+.article-b2,
+.article-b3 {
+  width: 25rem;
+}
+.arrow-group-two { 
+  width: 6rem;
+  height: 4rem;
+  margin-top: 16.5rem;
+}
+.article-group-three {
+  display: flex;
+  padding: 0 3rem;
+}
 
+.img-container-three {
+ width: 49rem;
+ height: 35rem;
+ border-radius: 2rem; 
+ background-color: #a3c2c2;
+ text-align: center;
+}
 
+.img-holder-box {
+  margin: 3rem auto 0 auto;
+  width: 16rem;
+  height: 12rem;
+}
+.smash-counter {
+  width: 25rem;
+  height: 3rem;
+  margin: 2rem auto 0 auto;
+}
+.smash-description {
+  width: 30rem;
+  height: 4rem;
+  margin: 2rem auto 0 auto;
+}
+.button-holder-one {
+  width: 14rem;
+  height: 2.5rem;
+  margin: 1rem auto 0 auto;
+  border-radius: 1rem;
+}
 
+.sign-in-one,
+.sign-in-two {
+  width: 16rem;
+  height: 1rem;
+  margin: 0.7rem auto 0 auto;
+}
+
+.b3-aside {
+  margin-left: 1.2rem;
+}
+
+.article-group-four {
+  display: flex;
+  min-height: 37rem;
+  padding: 4rem 3rem 0 3rem;
+}
+
+.smashingtv-box {
+  background-color: #a3c2c2;
+  width: 75rem;
+  height: 40rem;
+  margin: 2rem auto 0 auto;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.smashingtv-image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%; 
+  margin: 0 auto; 
+  position: relative;
+  top: 3rem;
+}
+
+.smashingtv-title {
+  width: 22rem;
+  height: 3rem;
+  margin: 5rem auto 0 auto;
+}
+
+.smashingtv-detail {
+ width: 25rem;
+ height: 4rem;
+ margin: 2rem auto 0 auto;
+}
+
+.button-two {
+  border-radius: 1rem;
+  width: 20rem;
+  height: 3rem;
+  margin: 2rem auto 0 auto;
+}
+
+.latest-article,
+.twitter-link {
+  width: 16rem;
+  height: 2rem;
+  margin: 5rem auto;
+  text-align: center;
+}
+.ethical-design {
+  height: 55rem;
+  background-color: #a3c2c2;
+  text-align: center;
+}
+
+.ethical-date {
+  position: relative;
+  top: 3rem;
+  width: 15rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+
+.ethical-heading {
+  margin: 5rem auto 0 auto;
+  width: 30rem;
+  height: 4rem;
+}
+
+.ethical-content {
+  margin: 3rem auto 0 auto;
+  width: 35rem;
+  height: 6rem;
+}
+.ethical-button {
+  margin: 3rem auto 0 auto;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+.ethical-image {
+  margin: 3rem auto 0 auto;
+  width: 55rem;
+  height: 20rem;
+}
+.article-group-five {
+  height: 18rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 2.5rem;
+  padding: 3rem 3rem;
+}
+.article5-image {
+  height: 18rem;
+}
+
+.article5-title {
+ width: 20rem;
+ height: 2rem;
+ margin-bottom: 2rem;
+}
+.article5-content {
+  width: 53rem;
+  height: 12rem;
+}
+.article-geoup-six{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 6rem;
+  grid-row-gap: 8rem;
+  padding: 3rem 3rem;
+}
+
+.article6-box {
+  display: flex;
+}
+.article6-container {
+  margin-left: 2rem;
+}
+.article6-image {
+  width: 7rem;
+  height: 7rem;
+}
+.article6-authour {
+  width: 10rem;
+  height: 2rem;
+}
+
+.article6-title {
+  width: 15rem;
+  height: 2rem;
+  margin-top: 2rem;
+}
+.article6-content {
+  width: 24rem;
+  height: 15rem;
+  margin-top: 2rem;
+}
+.article-group-seven {
+  display: flex;
+  height: 28rem;
+  background-color:#a3c2c2;
+  padding: 0 3rem;
+}
+.article7-box {
+  width: 45rem;
+}
+.feature7 {
+  width: 16rem;
+  height: 1.5rem;
+  margin-top: 3rem;
+}
+.article7-title {
+  width: 35rem;
+  height: 2.8rem;
+  margin-top: 1rem;
+}
+.article7-content {
+  width: 45rem;
+  height: 10rem;
+  margin-top: 1rem;
+}
+.article7-button {
+  width: 14rem;
+  height: 2rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.article7-image {
+  width: 16rem;
+  height: 22rem;
+  margin-top: 3rem;
+  margin-left: 8rem;
+
+}
