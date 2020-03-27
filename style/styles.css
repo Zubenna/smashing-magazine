@@ -379,5 +379,68 @@ right: 6.8rem;
   height: 22rem;
   margin-top: 3rem;
   margin-left: 8rem;
-
+}
+.article-group-eight {
+  display: flex;
+  margin-top: 5rem;
+  height: 30rem;
+  padding: 3rem;
+}
+.article-heading {
+  width: 80%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 2.6rem;
+}
+.list-of-content {
+  width: 60%;
+  height: 20rem;
+  margin-left: 5rem;
+}
+.article-group-nine {
+  display: flex;
+  height: 40rem;
+  padding: 3rem;
+  text-align: center;
+}
+.article9-box {
+  width: 30%;
+}
+.article9-image {
+  width: 70%;
+  margin-left: 5rem;
+  border-radius: 1rem;
+}
+.article9-header {
+  width: 15rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+.article9-content {
+  width: 18rem;
+  height: 25rem;
+}
+.article9-headerb,
+.article9-subheader,
+.article9-imageb,
+.article9-button {
+  margin: 2rem auto 0 auto;
+}
+.article9-headerb {
+  width: 22rem;
+  height: 3rem;
+}
+.article9-subheader {
+  width: 25rem;
+  height: 4rem;
+}
+.article9-imageb {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+}
+.article9-button {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 1rem;
 }
